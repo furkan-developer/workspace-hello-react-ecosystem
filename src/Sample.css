@@ -1,0 +1,9 @@
+h1{
+    color: blue;
+}
+
+.description{
+    font-style: italic;
+    border: 1px solid gray;
+    padding: 2rem 0.5rem;
+}
