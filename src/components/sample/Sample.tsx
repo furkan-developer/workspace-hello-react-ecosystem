@@ -1,7 +1,7 @@
 import "./Sample.css";
 import Button from "./button/Button";
 
-export default function Sample() {
+export default function Sample(){
   return (
     <>
       <h1>I've dived into depth of React.js </h1>
@@ -16,7 +16,7 @@ export default function Sample() {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
-      <Button message = "Hello React.js ecosystem!" justifyPosition="center"/>
+      <Button message="Hello React.js ecosystem!" justifyPosition="center" />
     </>
   );
 }

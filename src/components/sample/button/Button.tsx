@@ -1,6 +1,6 @@
 import "./Button.css";
 
-export default function Button(props) {
+export default function Button(props: any) {
   let buttonJustifyPosition = determineButtonJustifyPosition(
     props.justifyPosition
   );
@@ -14,8 +14,8 @@ export default function Button(props) {
   );
 }
 
-function determineButtonJustifyPosition(positon) {
-  let predefinedPositon = {
+function determineButtonJustifyPosition(positon: string) {
+  let predefinedPositon: any = {
     start: "justify-start",
     center: "justify-center",
     end: "justify-end",
